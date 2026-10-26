@@ -51,7 +51,7 @@ Of course, you may modify the way the scan is performed according to your needs.
 ```
 
 Other things to consider when using the skill:
-* The ai identified findings may include false positives (maintainer/pentester verification is needed and suggested)
+* The AI identified findings, may include false positives (maintainer/pentester verification is needed and suggested)
 * The per finding severity reported by an AI agent may be invalid (maintainer/business-owner verification is needed)
 * Consider providing additional context related to the target codebase to improve efficiency and reduce noise in the output
 * You may have to customise the Tools Phase so that the agent can use the tools available to your environment
