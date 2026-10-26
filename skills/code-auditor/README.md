@@ -26,10 +26,10 @@ This skill instructs the agent to follow a simple phases based methodology to co
 3. Tools Phase - Identity and invoke available security tools and treat their output as possible evidence.
 4. Threats Phase - Try to build a threat model based on the scope of the target.
 5. Discovery Phase - Deploy multiple sub-agents (6 by default) to scan the code for possible cybersecurity issues. (Unless specified) The scan is organised in at-least 3 passes:
-  - **Attack surface and data flow** focused pass
-  - **Identity and state** focused pass
-  - **Platform and chaining** focused pass
-  - (possibly) passes with additional focus requested by the user or deriving from the threat model
+   - **Attack surface and data flow** focused pass
+   - **Identity and state** focused pass
+   - **Platform and chaining** focused pass
+   - (possibly) passes with **additional focus** requested by the user or deriving from the threat model
 6. Triage Phase - Aggregating all the findings and validating them, to produce the final list of possible issues
 7. Remediation Phase - Looking into the possible remediation of the identified findings
 8. Reporting Phase - Producing both an aggregated report and per finding specific report (using the 2 templates available under the references)
